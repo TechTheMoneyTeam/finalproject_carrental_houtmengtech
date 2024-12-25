@@ -1,0 +1,34 @@
+name: car_rental
+description: Car Rental App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.1 <=4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  intl: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+ 
